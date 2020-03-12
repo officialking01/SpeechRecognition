@@ -71,7 +71,7 @@ if(SpeechRecognition) {
   //changes 11 March,2020
    function myFunction() {
     msg = searchFormInput.value ;
-    window.parent.postMessage(msg,'https://sactrial-saceu10-4plkbmaq22qfseq52iolh2m9.eu10.hanacloudservices.cloud.sap/');
+    window.parent.postMessage(msg);
     searchFormInput.value = "Data Sent" 
   }
 
